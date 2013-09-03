@@ -26,7 +26,7 @@ region = eu-west-1
 
 ### Demo
 
-1. Create the demo environment 
+#### Create the demo environment 
 
 Create a load balancer
 
@@ -50,12 +50,12 @@ Check AutoScaling is OK
 ```aws autoscaling describe-auto-scaling-instances```
 
 
-2. SSH connect to one of the machine and stop the web server
+#### SSH connect to one of the machine and stop the web server
 
 /etc/init.d/httpd stop
 
 
-3. Sit down, relax and watch AS in action
+#### Sit down, relax and watch AS in action
 
 After a few seconds, you should see one of the two instances marked as ```UNHEALTHY```
 
